@@ -24,7 +24,7 @@ node{
        stage('git checkout'){
            try{
                 echo "Checking out the code from git repository..."
-                git 'https://github.com/ailamadu/casestudy.git'
+                git 'https://github.com/ailamadu1/casestudy.git'
             }
             catch(Exception err){
                 echo "Exception occured during git checkout step..."
